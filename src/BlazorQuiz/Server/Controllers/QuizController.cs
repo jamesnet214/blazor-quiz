@@ -53,7 +53,7 @@ namespace BlazorQuiz.Server.Controllers
 			string yaml = serializer.Serialize(a1);
 
 			HttpClient webClient = new HttpClient();
-			var a = webClient.GetStringAsync("https://raw.githubusercontent.com/devncore/blazor-quiz/master/data/quiz-data.yaml");
+			var a = webClient.GetStringAsync("https://raw.githubusercontent.com/devncore/blazor-quiz/master/data/quiz-data.yml");
 
 			return ParsePlayer(a.Result).ToArray();
 		}

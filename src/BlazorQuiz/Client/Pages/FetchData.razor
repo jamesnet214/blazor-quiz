@@ -25,22 +25,30 @@ else
             @foreach (var forecast in forecasts)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@forecast.Question</td>
+
+                    @foreach(var answer in forecast.Answers)
+                    {
+                        <td>@answer</td>
+                    }
                 </tr>
             }
         </tbody>
     </table>
+
+    <button @onclick="Reset">Reset</button>
 }
 
 @code {
-    private WeatherForecast[] forecasts;
+    private Quiz[] forecasts;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        forecasts = await Http.GetFromJsonAsync<Quiz[]>("Quiz");
     }
 
+    private async Task Reset()
+    {
+        forecasts = await Http.GetFromJsonAsync<Quiz[]>("Quiz");
+    }
 }

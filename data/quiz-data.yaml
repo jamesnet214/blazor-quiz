@@ -1,11 +1,9 @@
-- quiz:
-    question: 다음 중 가장 비싼 것은?
-    answers:    
-      - 5600x
-      - Realforce
-      - GTX 3070
-- quiz:
-    question: 다음 중 가장 싼 것은?
-    answer:
-      - iPhone 10
-      - Galaxy 21
+- question: AS
+  answers:
+  - ASdf
+  - Asdf
+  
+  - question: AS1
+  answers:
+  - ASdf2
+  - Asdf22

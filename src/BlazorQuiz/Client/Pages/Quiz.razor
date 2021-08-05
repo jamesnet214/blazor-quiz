@@ -2,6 +2,8 @@
 @using BlazorQuiz.Shared
 @inject HttpClient Http
 
+<h3>Quiz</h3>
+
 @if (forecasts == null)
 {
     <p><em>Loading...</em></p>
@@ -36,7 +38,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("Quiz");
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
     }
 
 }

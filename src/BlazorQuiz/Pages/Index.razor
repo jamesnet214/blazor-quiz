@@ -1,9 +1,11 @@
-﻿@page "/"
+﻿@page "/"  
+@using Markdig;
+@inject NavigationManager NavManager
 @using BlazorQuiz.Local.Access
 
 
 
-@if(MarkDownResult != null)
+@if(MarkDownResult != "")
 {
     <div>@MarkDownResult</div>
 }
@@ -14,12 +16,11 @@ else
 
 @code {
     [Parameter]
-    public string MarkDownResult { get; set; }
+    public string MarkDownResult { get; set; } = "";
 
-    protected override Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
-        //MarkDownResult = MarkdownAdapter.Instance.DownloadToHtml("QUIZ");
-        MarkDownResult = "Hello James!!";
-        return base.OnInitializedAsync();
+        MarkDownResult = MarkdownAdapter.Instance.DownloadToHtml("https://github.com/devncore/blazor-authentication/blob/main/README.md?raw=true");
+        base.OnInitialized();
     }
 }

@@ -23,7 +23,7 @@ jobs:
     - name: Publish .NET Core Project
       run: dotnet publish ~/src/BlazorQuiz/BlazorQuiz.csproj -c Release -o release --nologo
     
-    # changes the base-tag in index.html from '/' to 'deploy-blazor-app' to match GitHub Pages repository subdirectory
+    # changes the base-tag in index.html from '/' to 'blazor-quiz' to match GitHub Pages repository subdirectory
     - name: Change base-tag in index.html from / to blazor-quiz
       run: sed -i 's/<base href="\/" \/>/<base href="\/blazor-quiz\/" \/>/g' release/wwwroot/index.html
     

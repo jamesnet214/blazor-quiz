@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuiz.Server", "BlazorQuiz\Server\BlazorQuiz.Server.csproj", "{5D6E17D1-492D-4583-B4EA-8894D55F4393}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuiz.Server", "BlazorQuiz\Server\BlazorQuiz.Server.csproj", "{9E0F71E0-E4E5-43D8-8310-2DEFDE8E3D09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuiz.Client", "BlazorQuiz\Client\BlazorQuiz.Client.csproj", "{A197DF10-F13B-48C2-8910-243D378EB39C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuiz.Client", "BlazorQuiz\Client\BlazorQuiz.Client.csproj", "{4DFA7486-500E-46CC-97CB-AA4C799CEB3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuiz.Shared", "BlazorQuiz\Shared\BlazorQuiz.Shared.csproj", "{1DD44C12-4CE4-48AA-88CE-F45810D2CC95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuiz.Shared", "BlazorQuiz\Shared\BlazorQuiz.Shared.csproj", "{784AE13A-36DC-4ABD-9474-D1D38F68813E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5D6E17D1-492D-4583-B4EA-8894D55F4393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D6E17D1-492D-4583-B4EA-8894D55F4393}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D6E17D1-492D-4583-B4EA-8894D55F4393}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D6E17D1-492D-4583-B4EA-8894D55F4393}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A197DF10-F13B-48C2-8910-243D378EB39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A197DF10-F13B-48C2-8910-243D378EB39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A197DF10-F13B-48C2-8910-243D378EB39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A197DF10-F13B-48C2-8910-243D378EB39C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DD44C12-4CE4-48AA-88CE-F45810D2CC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DD44C12-4CE4-48AA-88CE-F45810D2CC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DD44C12-4CE4-48AA-88CE-F45810D2CC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DD44C12-4CE4-48AA-88CE-F45810D2CC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0F71E0-E4E5-43D8-8310-2DEFDE8E3D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0F71E0-E4E5-43D8-8310-2DEFDE8E3D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0F71E0-E4E5-43D8-8310-2DEFDE8E3D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0F71E0-E4E5-43D8-8310-2DEFDE8E3D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFA7486-500E-46CC-97CB-AA4C799CEB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFA7486-500E-46CC-97CB-AA4C799CEB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFA7486-500E-46CC-97CB-AA4C799CEB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFA7486-500E-46CC-97CB-AA4C799CEB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784AE13A-36DC-4ABD-9474-D1D38F68813E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784AE13A-36DC-4ABD-9474-D1D38F68813E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784AE13A-36DC-4ABD-9474-D1D38F68813E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784AE13A-36DC-4ABD-9474-D1D38F68813E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

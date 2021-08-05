@@ -14,7 +14,7 @@ namespace BlazorQuiz.Server.Controllers
 	{
 		private static readonly string[] Summaries = new[]
 		{
-			"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+			"IronMan", "SpiderMan", "BlackWidow", "Thanos", "Thor", "Loki", "Captain Marvel", "Captain America", "Wanda", "Vision"
 		};
 
 		private readonly ILogger<WeatherForecastController> _logger;

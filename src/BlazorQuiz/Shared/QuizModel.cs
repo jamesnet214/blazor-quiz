@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlazorQuiz.Shared
 {
-    public class Quiz
+    public class QuizModel
     {
         public string Question { get; set; }
         public List<string> Answers { get; set; }

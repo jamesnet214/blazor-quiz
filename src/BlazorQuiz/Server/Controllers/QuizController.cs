@@ -16,10 +16,7 @@ namespace BlazorQuiz.Server.Controllers
 	[Route("[controller]")]
 	public class QuizController : ControllerBase
 	{
-		private static readonly string[] Summaries = new[]
-		{
-			"IronMan", "SpiderMan", "BlackWidow", "Thanos", "Thor", "Loki", "Captain Marvel", "Captain America", "Wanda", "Vision"
-		};
+		private static string YamlDataUrl = "https://raw.githubusercontent.com/devncore/blazor-quiz/master/data/quiz-basic.yml";
 
 		private readonly ILogger<WeatherForecastController> _logger;
 
@@ -29,42 +26,37 @@ namespace BlazorQuiz.Server.Controllers
 		}
 
 		[HttpGet]
-		public Quiz[] Get()
+		public QuizModel[] Get()
 		{
+			var yaml = new HttpClient().GetStringAsync(YamlDataUrl);
+			var yamlData = yaml.Result;
+			var quizs = ParsePlayer(yamlData);
+			Shuffle<QuizModel>(quizs);
 
-			var q = new List<Quiz>();
-
-			var an = new List<string>();
-			an.Add("ASdf");
-			an.Add("Asdf");
-			q.Add(new Quiz { Question = "AS", Answers = an });
-
-			var an2 = new List<string>();
-			an2.Add("ASdf23");
-			an2.Add("Asd22f");
-			q.Add(new Quiz { Question = "AS22", Answers = an2 });
-
-			QuizPack a1 = new QuizPack();
-			a1.Quiz = q;
-			ISerializer serializer = new SerializerBuilder()
-				.WithNamingConvention(CamelCaseNamingConvention.Instance)
-				.Build();
-
-			string yaml = serializer.Serialize(a1);
-
-			HttpClient webClient = new HttpClient();
-			var a = webClient.GetStringAsync("https://raw.githubusercontent.com/devncore/blazor-quiz/master/data/quiz-data.yml");
-
-			return ParsePlayer(a.Result).ToArray();
+			return quizs.Take(5).ToArray();
 		}
 
-		public static List<Quiz> ParsePlayer(string ymlContents)
+		public List<QuizModel> ParsePlayer(string ymlContents)
 		{
 			var deserializer = new DeserializerBuilder()
 			  .WithNamingConvention(CamelCaseNamingConvention.Instance)
 			  .Build();
 			var result = deserializer.Deserialize<QuizPack>(ymlContents);
 			return result.Quiz;
+		}
+
+		private void Shuffle<T>(IList<T> list)
+		{
+			Random rng = new Random();
+			int n = list.Count;
+
+			while (n > 1) {
+				n--;
+				int k = rng.Next(n + 1);
+				T value = list[k];
+				list[k] = list[n];
+				list[n] = value;
+			}
 		}
 	}
 }

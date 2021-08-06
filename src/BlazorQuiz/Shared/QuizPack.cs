@@ -8,6 +8,6 @@ namespace BlazorQuiz.Shared
 {
     public class QuizPack
     {
-        public List<Quiz> Quiz { get; set; }
+        public List<QuizModel> Quiz { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿@page "/fetchdata"
+﻿@page "/quiz"
 @using BlazorQuiz.Shared
 @inject HttpClient Http
 
@@ -12,29 +12,17 @@
 }
 else
 {
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Question</td>
+    @foreach (var forecast in forecasts)
+    {
+        <div>
+            <div>@forecast.Question</div>
 
-                    @foreach(var answer in forecast.Answers)
-                    {
-                        <td>@answer</td>
-                    }
-                </tr>
+            @foreach(var answer in forecast.Answers)
+            {
+                <div>@answer</div>
             }
-        </tbody>
-    </table>
+        </div>
+    }
 
     <button @onclick="Reset">Reset</button>
 }

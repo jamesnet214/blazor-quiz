@@ -88,7 +88,7 @@
 
                 @foreach(var answer in quiz.Answers)
                 {
-                    <div class="quiz-answer">@answer[0], @answer[1]</div>
+                    <div class="quiz-answer" @onclick="()=> Choice(answer)">@answer.IsAnswer, @answer.Aanswer</div>
                 }
             </div>
         }
@@ -116,5 +116,10 @@
     {
         quiz = quizs[current];
         current++;
+    }
+
+    private void Choice(AnswerModel answer)
+    {
+        Next();
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BlazorQuiz.Shared
 {
-    public class QuizModel
+    public class AnswerModel
     {
-        public string Question { get; set; }
-        public List<AnswerModel> Answers { get; set; }
+        public bool IsAnswer { get; set; }
+        public string Aanswer { get; set; }
     }
 }

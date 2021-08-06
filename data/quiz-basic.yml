@@ -1,6 +1,6 @@
 quiz:
 - question: AS
-  answers:https://github.com/devncore/blazor-quiz/blob/master/data/quiz-data.yml
+  answers:
   - ASdf
   - Asdf
 - question: AS22

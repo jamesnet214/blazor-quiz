@@ -2,41 +2,85 @@
 @using BlazorQuiz.Shared
 @inject HttpClient Http
 
-<h1>Weather forecast</h1>
-
-<p>This component demonstrates fetching data from the server.</p>
-
-@if (forecasts == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    @foreach (var forecast in forecasts)
-    {
-        <div>
-            <div>@forecast.Question</div>
-
-            @foreach(var answer in forecast.Answers)
-            {
-                <div>@answer</div>
-            }
-        </div>
+<style>
+    body {
+        background-color: #333333;
+        color: #cccccc;
     }
 
-    <button @onclick="Reset">Reset</button>
-}
+    .main {
+        width:100%;
+        height:100%;
+        background:#000;
+    }
+
+    .main .box { 
+        width:50%;
+        margin:0 auto;
+    } 
+    .quiz {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .quiz-title {
+        font-size: 15pt;
+        margin-top: 50px;
+    }
+
+    .quiz-answer {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding:10px;
+        border: 1px solid #555555;
+        border-radius: 100px;
+    }
+
+    .restart {
+        margin-top: 30px;
+    }
+
+</style>
+
+<div class="main">
+    <h1>Quiz</h1>
+    
+    <div class="box">
+        @if (forecasts == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            @foreach (var forecast in forecasts)
+            {
+                <div class="quiz">
+                    <div class="quiz-title">@forecast.Question</div>
+
+                    @foreach(var answer in forecast.Answers)
+                    {
+                        <div class="quiz-answer">@answer</div>
+                    }
+                </div>
+            }
+        }
+        
+
+        <button @onclick="Reset" class="restart">Restart</button>
+    </div>
+</div>
 
 @code {
     private QuizModel[] forecasts;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<QuizModel[]>("Quiz");
+        forecasts = null;
+        forecasts = await Http.GetFromJsonAsync<QuizModel[]>("QuizData");
     }
 
     private async Task Reset()
     {
-        forecasts = await Http.GetFromJsonAsync<QuizModel[]>("Quiz");
+        forecasts = await Http.GetFromJsonAsync<QuizModel[]>("QuizData");
     }
 }

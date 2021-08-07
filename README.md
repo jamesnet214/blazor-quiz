@@ -1,1 +1,1 @@
-# blazor-on-pages
+# blazor-quiz

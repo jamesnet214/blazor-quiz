@@ -1,11 +1,11 @@
 quiz:
 - question: What is a correct syntax to output "Hello World" in C#?
   answers:
-    - isAnswer: 1
+    - isAnswer: y
       example: System.out.println("Hello World");
-    - isAnswer: 0
+    - isAnswer: n
     - example: print("Hello World");
-    - isAnswer: 0
+    - isAnswer: n
     - example: cout << "Hello World";
-    - isAnswer: 0
+    - isAnswer: n
     - example: Console.WriteLine("Hello World");

@@ -136,4 +136,4 @@ quiz:
     - isAnswer: n
       example: dotnet new project blazorwasm
     - isAnswer: n
-      example: dotnet new blazor'-'wasm
+      example: dotnet new blazor-wasm

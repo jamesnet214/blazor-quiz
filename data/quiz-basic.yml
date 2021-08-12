@@ -1,40 +1,80 @@
-# 1
 quiz:
-- question: What is a correct syntax to output "Hello World" in C#?
+- question: 파이썬의 창시자는 누구인가?
   answers:
-  - [1, System.out.println("Hello World");]
-  - [0, print("Hello World");]
-  - [0, cout << "Hello World";]
-  - [0, Console.WriteLine("Hello World");]
-# 2
-- question: C# is an alias of C++
+    - isAnswer: n
+      example: 리누스 토르발스
+    - isAnswer: n
+      example: 제임스 고슬링
+    - isAnswer: y
+      example: 귀도 반 로섬
+    - isAnswer: n
+      example: 앤더스 헤즐스버그
+- question: 스택오버플로우 사용자 평가 1위이자 구글의 엔지니어인 이 사람은 누구인가?
   answers:
-  - [0, True]
-  - [1, False]
-# 3
-- question: How do you insert COMMENTS in C# code?
+    - isAnswer: y
+      example: Jon Skeet
+    - isAnswer: n
+      example: Gordon Linoff
+    - isAnswer: n
+      example: Darin Dimitrov
+    - isAnswer: n
+      example: Marc Gravell
+- question: IDisposable과 관계 없는 것은?
   answers:
-  - [0, // This is a comment]
-  - [1, $$ This is a comment]
-  - [0, /* This is a comment]
-# 4
-- question: Which data type is used to create a variable that should store text?
+    - isAnswer: n
+      example: System.Runtime 
+    - isAnswer: n
+      example: void Dispose();
+    - isAnswer: n
+      example: using
+    - isAnswer: y
+      example: abstract
+- question: YAML(야멜)에서 Boolean 값으로 허용하지 않는 것을 고르시오.
   answers:
-  - [1, string]
-  - [0, myString]
-  - [0, str]
-  - [0, Txt]
-# 5
-- question: How do you create a variable with the numeric value 5?
+    - isAnswer: y
+      example: 1 또는 0
+    - isAnswer: n
+      example: true 또는 false
+    - isAnswer: n
+      example: y 또는 n
+- question: 다음 중 잘못된 것은?
   answers:
-  - [0, double x = 5;]
-  - [0, x = 5;]
-  - [0, num x = 5;]
-  - [1, int x = 5;]
-# 6
-- question: How do you create a variable with the floating number 2.8?
+    - isAnswer: n
+      example: var user = new User();
+    - isAnswer: y
+      example: var user = new();
+    - isAnswer: n
+      example: User user = { get; set; } = new();
+    - isAnswer: n
+      example: User user = new User();
+- question: 마이크로소프트 본사의 위치는 어디인가?
   answers:
-  - [0, int x = 2.8;]
-  - [1, double x = 2.8D;]
-  - [0, byte x = 2.8;]
-  - [0, int x = 2.8D;]
+    - isAnswer: y
+      example: 시애틀
+    - isAnswer: n
+      example: 실리콘밸리
+    - isAnswer: n
+      example: 뉴욕
+    - isAnswer: n
+      example: 런던
+- question: 스택오버플로우에서 선정한 최고의 인기 IDE는?
+  answers:
+    - isAnswer: n
+      example: 이클립스
+    - isAnswer: n
+      example: 비주얼스튜디오
+    - isAnswer: n
+      example: 아톰
+    - isAnswer: y
+      example: 비주얼스튜디오코드
+- question: 일론머스크와 관계 없는 것은?
+  answers:
+    - isAnswer: n
+      example: 테슬라
+    - isAnswer: n
+      example: 도지코인
+    - isAnswer: n
+      example: 솔라시티
+    - isAnswer: y
+      example: 스페이스오딧세이
+  

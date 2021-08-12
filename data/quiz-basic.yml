@@ -57,7 +57,7 @@ quiz:
       example: 뉴욕
     - isAnswer: n
       example: 런던
-- question: 스택오버플로우에서 선정한 최고의 인기 IDE는?
+- question: 스택오버플로우에서 선정한 2021년 최고의 인기 IDE는?
   answers:
     - isAnswer: n
       example: 이클립스

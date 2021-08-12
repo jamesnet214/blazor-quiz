@@ -81,10 +81,10 @@ quiz:
   answers:
     - isAnswer: n
       example: 연속 5일 방문
-    - isAnswer: n
+    - isAnswer: y
       example: 연속 10일 방문
     - isAnswer: n
       example: 연속 30일 방문
-    - isAnswer: y
+    - isAnswer: n
       example: 연속 100일 방문
   

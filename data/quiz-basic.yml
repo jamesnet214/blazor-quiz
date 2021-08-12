@@ -67,4 +67,14 @@ quiz:
       example: 아톰
     - isAnswer: y
       example: 비주얼스튜디오코드
+- question: 일론머스크와 관계 없는 것은?
+  answers:
+    - isAnswer: n
+      example: 테슬라
+    - isAnswer: n
+      example: 도지코인
+    - isAnswer: n
+      example: 솔라시티
+    - isAnswer: y
+      example: 스페이스오딧세이
   

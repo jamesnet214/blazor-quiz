@@ -31,14 +31,12 @@ quiz:
       example: abstract
 - question: YAML(야멜)에서 Boolean 값으로 허용하지 않는 것을 고르시오.
   answers:
-    - isAnswer: n
+    - isAnswer: y
       example: 1 또는 0
     - isAnswer: n
-      example: print("Hello World");
-    - isAnswer: true 또는 false
-      example: cout << "Hello World";
-    - isAnswer: y 또는 n
-      example: Console.WriteLine("Hello World");
+      example: true 또는 false
+    - isAnswer: n
+      example: y 또는 n
 - question: 다음 중 잘못된 것은?
   answers:
     - isAnswer: n

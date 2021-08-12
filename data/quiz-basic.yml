@@ -6,7 +6,7 @@ quiz:
     - isAnswer: n
       example: 제임스 고슬링
     - isAnswer: y
-      example: 귀도 반 로섬 (Guido van Rossum)
+      example: 귀도 반 로섬
     - isAnswer: n
       example: 앤더스 헤즐스버그
 - question: 스택오버플로우 사용자 평가 1위이자 구글의 엔지니어인 이 사람은 누구인가?

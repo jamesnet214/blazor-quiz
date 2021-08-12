@@ -1,24 +1,24 @@
 quiz:
-- question: What is a correct syntax to output "Hello World" in C#?
+- question: 파이썬의 창시자는 누구인가?
+  answers:
+    - isAnswer: n
+      example: 리누스 토르발스
+    - isAnswer: n
+      example: 제임스 고슬링
+    - isAnswer: y
+      example: 귀도 반 로섬 (Guido van Rossum)
+    - isAnswer: n
+      example: 앤더스 헤즐스버그
+- question: 스택오버플로우 사용자 평가 1위이자 구글의 엔지니어인 이 사람은 누구인가?
   answers:
     - isAnswer: y
-      example: System.out.println("Hello World");
+      example: Jon Skeet
     - isAnswer: n
-      example: print("Hello World");
+      example: Gordon Linoff
     - isAnswer: n
-      example: cout << "Hello World";
+      example: Darin Dimitrov
     - isAnswer: n
-      example: Console.WriteLine("Hello World");
-- question: What is a correct syntax to output "Hello World" in C#?
-  answers:
-    - isAnswer: y
-      example: System.out.println("Hello World");
-    - isAnswer: n
-      example: print("Hello World");
-    - isAnswer: n
-      example: cout << "Hello World";
-    - isAnswer: n
-      example: Console.WriteLine("Hello World");
+      example: Marc Gravell
 - question: What is a correct syntax to output "Hello World" in C#?
   answers:
     - isAnswer: y

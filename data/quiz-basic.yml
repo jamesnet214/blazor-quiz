@@ -60,13 +60,13 @@ quiz:
 - question: 스택오버플로우에서 선정한 2021년 최고의 인기 IDE는?
   answers:
     - isAnswer: n
-      example: 이클립스
+      example: Eclipse
     - isAnswer: n
-      example: 비주얼스튜디오
+      example: Visual Studio
     - isAnswer: n
-      example: 아톰
+      example: Atom
     - isAnswer: y
-      example: 비주얼스튜디오코드
+      example: Visual Studio Code
 - question: 일론머스크와 관계없는 것은?
   answers:
     - isAnswer: n

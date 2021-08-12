@@ -29,7 +29,7 @@ namespace BlazorQuiz.Server.Controllers
 		public QuizModel[] Get()
 		{
 			var yaml = new HttpClient().GetStringAsync(YamlDataUrl);
-			var yamlData = yaml.Result;
+			 var yamlData = yaml.Result;
 			var quizs = ParsePlayer(yamlData);
 			Shuffle<QuizModel>(quizs);
 

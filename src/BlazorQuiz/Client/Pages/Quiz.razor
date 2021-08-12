@@ -2,67 +2,7 @@
 @using BlazorQuiz.Shared
 @inject HttpClient Http
 
-<style>
-    body {
-        background-color: #333333;
-        color: #cccccc;
-    }
-
-    .main {
-        width:100%;
-        height:100%;
-        background:#000;
-    }
-
-    .main .box { 
-        width:50%;
-        margin:0 auto;
-    } 
-
-    h1 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .quiz {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .quiz-title {
-        font-size: 15pt;
-        margin-top: 50px;
-    }
-
-    .quiz-answer {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding:10px;
-        border: 1px solid #555555;
-        border-radius: 100px;
-    }
-
-    .quiz-current {
-        font-size: 15pt;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color:#888888;
-    }
-
-    .restart {
-        margin-top: 50px;
-        background-color: transparent;
-        color: #aaaaaa;
-        padding: 10px;
-    }
-
-
-
-</style>
-
 <div class="main">
-    <h1>Quiz</h1>
-    
     <div class="box">
         @if (quiz == null)
         {
@@ -70,35 +10,57 @@
         }
         else
         {
-            <div class="quiz-current">
-                @current
+            <div class="quiz-progress">
+                @for (int i = 1; i <= 5; i++)
+                {
+                    if (i < current)
+                    {
+                        <div class="quiz-progress-box"/>
+                    }
+                }
             </div>
 
-            @if (current < 5)
+            if (current < 6)
             {
-                <button @onclick="Next" class="Reset">Next</button>
+                <div class="quiz">
+                    <div class="quiz-title">@quiz.Question</div>
+
+                    @foreach (var answer in quiz.Answers)
+                    {
+                        <div class="quiz-answer" @onclick="()=> Choice(answer)">@answer.Example</div>
+                    }
+                </div>
             }
             else
             {
-                <button @onclick="Reset" class="Reset">Reset</button>
+                <div class="quiz-gameover">Game Over</div>
+                <div class="quiz-result">총 @questionCount 문제 중에 <span>@correctCount</span> 문제 정답</div>
+
+                <div class="quiz-message">@resultMessage</div>
+
+                <div class="quiz-buttons">
+                    <button @onclick="Reset" class="quiz-retry">다시하기</button>
+                </div>
             }
-
-            <div class="quiz">
-                <div class="quiz-title">@quiz.Question</div>
-
-                @foreach(var answer in quiz.Answers)
-                {
-                    <div class="quiz-answer" @onclick="()=> Choice(answer)">@answer.IsAnswer, @answer.Aanswer</div>
-                }
-            </div>
         }
     </div>
 </div>
 
 @code {
+    private int questionCount = 5;
+    private int correctCount = 0;
+    private int current = 0;
+    private string resultMessage;
+
     private QuizModel[] quizs;
     private QuizModel quiz;
-    private int current;
+
+    private string message0 = "뭐냐이거..";
+    private string message1 = "나원참... 하기싫으신가요..";
+    private string message2 = "분발하셔야합니다.. 차분하게 해보세요..";
+    private string message3 = "어중간하네요.. 다시해보세요..";
+    private string message4 = "아깝다.. 한번더 도전?";
+    private string message5 = "축하드립니다!! 고인물 인정!!";
 
     protected override async Task OnInitializedAsync()
     {
@@ -107,19 +69,50 @@
 
     private async Task Reset()
     {
-        current = 0;
         quizs = await Http.GetFromJsonAsync<QuizModel[]>("QuizData");
+        current = 0;
+        correctCount = 0;
         Next();
     }
 
     private void Next()
     {
-        quiz = quizs[current];
+        if (current < 5)
+        {
+            quiz = quizs[current];
+        }
+        else
+        {
+            resultMessage = GetResultMessage(correctCount);
+        }
+
         current++;
     }
 
     private void Choice(AnswerModel answer)
     {
+        if(answer.IsAnswer)
+        {
+            correctCount++;
+        }
+
         Next();
+    }
+
+    private string GetResultMessage(int correctCount)
+    {
+        string ment ="";
+
+        switch (correctCount)
+        {
+            case 0: ment = message0; break;
+            case 1: ment = message1; break;
+            case 2: ment = message2; break;
+            case 3: ment = message3; break;
+            case 4: ment = message4; break;
+            case 5: ment = message5; break;
+        }
+
+        return ment;
     }
 }

@@ -9,6 +9,6 @@ namespace BlazorQuiz.Shared
     public class AnswerModel
     {
         public bool IsAnswer { get; set; }
-        public string Aanswer { get; set; }
+        public string Example { get; set; }
     }
 }

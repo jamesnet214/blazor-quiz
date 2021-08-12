@@ -19,44 +19,34 @@ quiz:
       example: Darin Dimitrov
     - isAnswer: n
       example: Marc Gravell
-- question: What is a correct syntax to output "Hello World" in C#?
+- question: IDisposable과 관계 없는 것은?
   answers:
+    - isAnswer: n
+      example: System.Runtime 
+    - isAnswer: n
+      example: void Dispose();
+    - isAnswer: n
+      example: using
     - isAnswer: y
-      example: System.out.println("Hello World");
+      example: abstract
+- question: YAML(야멜)에서 Boolean 값으로 허용하지 않는 것을 고르시오.
+  answers:
+    - isAnswer: n
+      example: 1 또는 0
     - isAnswer: n
       example: print("Hello World");
-    - isAnswer: n
+    - isAnswer: true 또는 false
       example: cout << "Hello World";
-    - isAnswer: n
+    - isAnswer: y 또는 n
       example: Console.WriteLine("Hello World");
-- question: What is a correct syntax to output "Hello World" in C#?
+- question: 다음 중 잘못된 것은?
   answers:
+    - isAnswer: n
+      example: var user = new User();
     - isAnswer: y
-      example: System.out.println("Hello World");
+      example: var user = new();
     - isAnswer: n
-      example: print("Hello World");
+      example: User user = { get; set; } = new();
     - isAnswer: n
-      example: cout << "Hello World";
-    - isAnswer: n
-      example: Console.WriteLine("Hello World");
-- question: What is a correct syntax to output "Hello World" in C#?
-  answers:
-    - isAnswer: y
-      example: System.out.println("Hello World");
-    - isAnswer: n
-      example: print("Hello World");
-    - isAnswer: n
-      example: cout << "Hello World";
-    - isAnswer: n
-      example: Console.WriteLine("Hello World");
-- question: What is a correct syntax to output "Hello World" in C#?
-  answers:
-    - isAnswer: y
-      example: System.out.println("Hello World");
-    - isAnswer: n
-      example: print("Hello World");
-    - isAnswer: n
-      example: cout << "Hello World";
-    - isAnswer: n
-      example: Console.WriteLine("Hello World");
+      example: User user = new User();
   

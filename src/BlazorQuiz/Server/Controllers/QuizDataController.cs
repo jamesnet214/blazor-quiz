@@ -33,6 +33,11 @@ namespace BlazorQuiz.Server.Controllers
 			var quizs = ParsePlayer(yamlData);
 			Shuffle<QuizModel>(quizs);
 
+			foreach (var quiz in quizs)
+			{
+				Shuffle<AnswerModel>(quiz.Answers);
+			}
+
 			return quizs.Take(5).ToArray();
 		}
 
@@ -50,7 +55,8 @@ namespace BlazorQuiz.Server.Controllers
 			Random rng = new Random();
 			int n = list.Count;
 
-			while (n > 1) {
+			while (n > 1) 
+			{
 				n--;
 				int k = rng.Next(n + 1);
 				T value = list[k];

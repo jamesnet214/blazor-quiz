@@ -119,9 +119,9 @@ quiz:
       example: structured analysis
 - question: 마크다운 파일의 확장명은?
   answers:
-    - isAnswer: y
-      example: .markdown
     - isAnswer: n
+      example: .markdown
+    - isAnswer: y
       example: .md
     - isAnswer: n
       example: .mark

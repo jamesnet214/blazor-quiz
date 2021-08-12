@@ -117,3 +117,13 @@ quiz:
       example: Security Association
     - isAnswer: n
       example: structured analysis
+- question: 마크다운(Markdown)에서 라인을 만드는 방법은?
+  answers:
+    - isAnswer: y
+      example: ---------
+    - isAnswer: n
+      example: <line>
+    - isAnswer: n
+      example: _line
+    - isAnswer: n
+      example: @line

@@ -77,4 +77,14 @@ quiz:
       example: 솔라시티
     - isAnswer: y
       example: 스페이스오딧세이
+- question: 닷넷데브 커뮤니티에서 열성가 뱃지는 몇일 연속으로 방문해야 얻을 수 있는가?
+  answers:
+    - isAnswer: n
+      example: 연속 5일 방문
+    - isAnswer: n
+      example: 연속 10일 방문
+    - isAnswer: n
+      example: 연속 30일 방문
+    - isAnswer: y
+      example: 연속 100일 방문
   

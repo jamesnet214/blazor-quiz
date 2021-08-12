@@ -127,3 +127,13 @@ quiz:
       example: .mark
     - isAnswer: n
       example: .mkdw
+- question: 터미널에서 Blazor WebAssembly 프로젝트를 생성하는 명령어로 올바른 것은? (단, 옵션사항들은 모두 제외)
+  answers:
+    - isAnswer: y
+      example: dotnet new blazorwasm
+    - isAnswer: n
+      example: dotnet new blazorwebassembly
+    - isAnswer: n
+      example: dotnet new project blazorwasm
+    - isAnswer: n
+      example: dotnet new blazor-wasm

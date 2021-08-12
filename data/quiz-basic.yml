@@ -87,4 +87,14 @@ quiz:
       example: 연속 30일 방문
     - isAnswer: n
       example: 연속 100일 방문
+- question: 넷플릭스가 사용하고 있는 클라우드 환경은?
+  answers:
+    - isAnswer: n
+      example: 구글 클라우드
+    - isAnswer: y
+      example: 아마존 AWS
+    - isAnswer: n
+      example: 마이크로소프트 AZURE
+    - isAnswer: n
+      example: 오라클 클라우드
   

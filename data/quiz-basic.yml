@@ -117,13 +117,13 @@ quiz:
       example: Security Association
     - isAnswer: n
       example: structured analysis
-- question: 마크다운(Markdown)에서 라인을 만드는 방법은?
+- question: 마크다운 파일의 확장명은?
   answers:
     - isAnswer: y
-      example: ---------
+      example: .markdown
     - isAnswer: n
-      example: <line>
+      example: .md
     - isAnswer: n
-      example: _line
+      example: .mark
     - isAnswer: n
-      example: @line
+      example: .mkdw

@@ -47,4 +47,24 @@ quiz:
       example: User user = { get; set; } = new();
     - isAnswer: n
       example: User user = new User();
+- question: 마이크로소프트 본사의 위치는 어디인가?
+  answers:
+    - isAnswer: y
+      example: 시애틀
+    - isAnswer: n
+      example: 실리콘밸리
+    - isAnswer: n
+      example: 뉴욕
+    - isAnswer: n
+      example: 런던
+- question: 스택오버플로우에서 선정한 최고의 인기 IDE는?
+  answers:
+    - isAnswer: n
+      example: 이클립스
+    - isAnswer: n
+      example: 비주얼스튜디오
+    - isAnswer: n
+      example: 아톰
+    - isAnswer: y
+      example: 비주얼스튜디오코드
   

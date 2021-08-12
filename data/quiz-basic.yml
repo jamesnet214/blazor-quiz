@@ -107,3 +107,13 @@ quiz:
       example: outlook.com
     - isAnswer: n
       example: microsoft.com
+- question: sa 의 정확한 의미는?
+  answers:
+    - isAnswer: y
+      example: System Administrator
+    - isAnswer: n
+      example: Saudi Arabia 
+    - isAnswer: n
+      example: Security Association
+    - isAnswer: n
+      example: structured analysis

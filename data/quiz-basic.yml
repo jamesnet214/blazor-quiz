@@ -19,7 +19,7 @@ quiz:
       example: Darin Dimitrov
     - isAnswer: n
       example: Marc Gravell
-- question: 'IDisposable'과 관계 없는 것은?
+- question: IDisposable과 관계 없는 것은?
   answers:
     - isAnswer: n
       example: System.Runtime 
@@ -29,7 +29,7 @@ quiz:
       example: using
     - isAnswer: y
       example: abstract
-- question: 'YAML(야멜)'에서 Boolean 값으로 허용하지 않는 것을 고르시오.
+- question: YAML(야멜)에서 Boolean 값으로 허용하지 않는 것을 고르시오.
   answers:
     - isAnswer: y
       example: 1 또는 0
@@ -107,7 +107,7 @@ quiz:
       example: outlook.com
     - isAnswer: n
       example: microsoft.com
-- question: 'sa'의 정확한 의미는?
+- question: sa의 정확한 의미는?
   answers:
     - isAnswer: y
       example: System Administrator

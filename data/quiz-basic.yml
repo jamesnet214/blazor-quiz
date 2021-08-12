@@ -94,7 +94,16 @@ quiz:
     - isAnswer: y
       example: 아마존 AWS
     - isAnswer: n
-      example: 마이크로소프트 AZURE
+      example: 마이크로소프트 Azure
     - isAnswer: n
       example: 오라클 클라우드
-  
+- question: 마이크로소프트 Azure 웹앱에서 제공하는 기본 무료 도메인은?
+  answers:
+    - isAnswer: n
+      example: azure.com
+    - isAnswer: y
+      example: azurewebsites.net
+    - isAnswer: n
+      example: outlook.com
+    - isAnswer: n
+      example: microsoft.com

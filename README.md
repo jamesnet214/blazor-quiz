@@ -11,9 +11,9 @@
 - MS Azure WebApp 배포 (무료 F1)
 
 ### 데이터
-- 별도의 데이터베이스 없이 GitHub 레포지터리에서 `.yaml` 파일 로드
+- 별도의 데이터베이스 없이 GitHub 레포지터리에서 `.yaml` 파일 로드  
+  https://github.com/devncore/blazor-quiz/blob/master/data/quiz-basic.yml
 
-## 데이터 위치
 
 
 

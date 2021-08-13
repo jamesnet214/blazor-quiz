@@ -13,5 +13,9 @@
 ### 데이터
 - 별도의 데이터베이스 없이 GitHub 레포지터리에서 `.yaml` 파일 로드
 
+## 데이터 위치
+
+
+
 ![image](https://user-images.githubusercontent.com/52397976/129287383-de3e1e1d-1b41-46e5-8755-ecf2ee78c12f.png)
 

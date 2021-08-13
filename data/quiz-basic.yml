@@ -169,13 +169,13 @@ quiz:
       example: 킵 손 박사
     - isAnswer: y
       example: 팀 쿡
-- question: GitHub의 마스코트는 어떤 개체가 합성되었는가?
+- question: GitHub의 마스코트는 어떤 개체가 합성된 모습인가?
   answers:
     - isAnswer: y
       example: 고양이와 문어
     - isAnswer: n
       example: 강아지와 물개
     - isAnswer: n
-      example: 고양이와 사자
+      example: 사자와  펭귄
     - isAnswer: n
-      example: 문어와 고등어
+      example: 호랑이와 돌고래

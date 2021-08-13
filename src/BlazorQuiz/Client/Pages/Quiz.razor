@@ -2,6 +2,10 @@
 @using BlazorQuiz.Shared
 @inject HttpClient Http
 
+<style>
+    @@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css); 
+</style>
+
 <div class="main">
     <div class="box">
         @if (quiz == null)
@@ -11,14 +15,13 @@
         else
         {
             <div class="quiz-progress">
-                @for (int i = 1; i <= 5; i++)
-                {
-                    if (i < current)
-                    {
-                        <div class="quiz-progress-box"/>
-                    }
+                <div class="quiz-progress-box" role="progressbar" style="@($"width: {progress}%")" aria-valuenow="@progress" aria-valuemin="0" aria-valuemax="100"></div>
+               
+                @if (progress != "100")
+                {     
+                    <div style="font-size: 20px; padding: 5px; color: black; text-align: center; display:inline-block">@($"{progress}%")</div>
                 }
-            </div>
+             </div>
 
             if (current < 6)
             {
@@ -34,7 +37,7 @@
             else
             {
                 <div class="quiz-gameover">Game Over</div>
-                <div class="quiz-result">총 @questionCount 문제 중에 <span>@correctCount</span> 문제 정답</div>
+                <div class="quiz-result">총 @questionCount 문제 중에 <span>@correctCount</span> 문제 정답!</div>
 
                 <div class="quiz-message">@resultMessage</div>
 
@@ -55,12 +58,14 @@
     private QuizModel[] quizs;
     private QuizModel quiz;
 
-    private string message0 = "뭐냐이거..";
-    private string message1 = "나원참... 하기싫으신가요..";
-    private string message2 = "분발하셔야합니다.. 차분하게 해보세요..";
-    private string message3 = "어중간하네요.. 다시해보세요..";
-    private string message4 = "아깝다.. 한번더 도전?";
-    private string message5 = "축하드립니다!! 고인물 인정!!";
+    private string message0 = "일부러 장난치신거죠?😑";
+    private string message1 = "컨디션이 안 좋으신 건가요..?😵";
+    private string message2 = "헷갈렸던 문제는 💻검색💻해보는 센스!!";
+    private string message3 = "집중해서 다시 풀어보아요!💪";
+    private string message4 = "한번 더 풀고 만점 도전!😉";
+    private string message5 = "🌟축하드립니다🌟 고인물 인정!";
+    
+    private string progress = "";
 
     protected override async Task OnInitializedAsync()
     {
@@ -86,6 +91,7 @@
             resultMessage = GetResultMessage(correctCount);
         }
 
+        progress = (100 / 5 * current).ToString("0");
         current++;
     }
 

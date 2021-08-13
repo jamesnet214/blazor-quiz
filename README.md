@@ -1,15 +1,12 @@
 # blazor-quiz
 
-[웹사이트 방문](https://blazor-quiz.azurewebsites.net/Quiz)
+#### 👉 [웹사이트 방문](https://blazor-quiz.azurewebsites.net/Quiz)
 
 ## Overview
 
-간단한 퀴즈를 풀 수 있는 Blazor-WebAssembly 기반의 웹앱입니다.
+> 간단한 퀴즈를 풀 수 있는 Blazor-WebAssembly 기반의 웹앱입니다.
 
-![image](https://user-images.githubusercontent.com/52397976/129287383-de3e1e1d-1b41-46e5-8755-ecf2ee78c12f.png)
-
-
-[바로가기](https://blazor-quiz.azurewebsites.net/Quiz)
+<img src="https://user-images.githubusercontent.com/52397976/129287383-de3e1e1d-1b41-46e5-8755-ecf2ee78c12f.png" width="400"/>
 
 ### 개발 환경
 - Blazor-WebAssembly
@@ -21,7 +18,7 @@
 - 별도의 데이터베이스 없이 GitHub 레포지터리에서 `.yaml` 파일 로드  
   https://github.com/devncore/blazor-quiz/blob/master/data/quiz-basic.yml
 
-### Yaml 파일을 읽어오는 부분
+### Yaml Parsing
 
 ```csharp
 [ApiController]
@@ -41,7 +38,7 @@ public class QuizDataController : ControllerBase
 	public QuizModel[] Get()
 	{
 		var yaml = new HttpClient().GetStringAsync(YamlDataUrl);
-		 var yamlData = yaml.Result;
+		var yamlData = yaml.Result;
 		var quizs = ParsePlayer(yamlData);
 		Shuffle<QuizModel>(quizs);
 
@@ -78,7 +75,3 @@ public class QuizDataController : ControllerBase
 	}
 }
 ```
-
-
-
-

@@ -142,7 +142,7 @@ quiz:
     - isAnswer: y
       example: Windows Presentation Foundation
     - isAnswer: n
-      example: Windows Power Frame
+      example: Windows Powerful Frame
     - isAnswer: n
       example: Windows Professional Frame
     - isAnswer: n
@@ -176,6 +176,6 @@ quiz:
     - isAnswer: n
       example: 강아지와 물개
     - isAnswer: n
-      example: 사자와  펭귄
+      example: 사자와 펭귄
     - isAnswer: n
       example: 호랑이와 돌고래

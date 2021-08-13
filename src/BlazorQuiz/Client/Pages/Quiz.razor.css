@@ -73,6 +73,14 @@ h1 {
 	border-radius: 20px;
 }
 
+.quiz-progress-value {
+	font-size: 20px;
+	margin-left: 5px;
+	color: black;
+	text-align: center;
+	display: inline-block
+}
+
 .quiz-gameover {
 	text-align: center;
 	font-size: 30pt;

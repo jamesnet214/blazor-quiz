@@ -4,6 +4,9 @@
 
 간단한 퀴즈를 풀 수 있는 Blazor-WebAssembly 기반의 웹앱입니다.
 
+> ![image](https://user-images.githubusercontent.com/52397976/129287383-de3e1e1d-1b41-46e5-8755-ecf2ee78c12f.png)
+
+
 [바로가기](https://blazor-quiz.azurewebsites.net/Quiz)
 
 ### 개발 환경
@@ -19,5 +22,5 @@
 
 
 
-![image](https://user-images.githubusercontent.com/52397976/129287383-de3e1e1d-1b41-46e5-8755-ecf2ee78c12f.png)
+
 

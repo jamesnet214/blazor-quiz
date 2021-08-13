@@ -6,7 +6,9 @@
 
 > 간단한 퀴즈를 풀 수 있는 Blazor-WebAssembly 기반의 웹앱입니다.
 
-<img src="https://user-images.githubusercontent.com/52397976/129287383-de3e1e1d-1b41-46e5-8755-ecf2ee78c12f.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/74305823/129328930-6ca3e1e5-83f6-429a-af6a-63d81bd28624.png" width="400"/>
+
+<img src="https://user-images.githubusercontent.com/74305823/129329047-0e6dd8ae-f0a4-4536-a18e-ccedf3f8033a.png" width="400"/>
 
 ### 개발 환경
 - Blazor-WebAssembly

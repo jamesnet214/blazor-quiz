@@ -169,3 +169,13 @@ quiz:
       example: 킵 손 박사
     - isAnswer: y
       example: 팀 쿡
+- question: 노벨상을 두번이나(물리학, 화학) 받은 이 사람은 누구인가?
+  answers:
+    - isAnswer: y
+      example: 마리 퀴리 박사
+    - isAnswer: n
+      example: 스티븐 호킹 박사
+    - isAnswer: n
+      example: 리처드 파인만 박사
+    - isAnswer: n
+      example: 아인슈타인 박사

@@ -209,3 +209,13 @@ quiz:
       example: git update https://github.com/devncore/...
     - isAnswer: n
       example: git local https://github.com/devncore/...
+- question: XAML의 올바른 뜻은 무엇인가?
+  answers:
+    - isAnswer: y
+      example: Extensible Application Markup Language
+    - isAnswer: n
+      example: Experience Application Markup Language
+    - isAnswer: n
+      example: Experience Advance Markup Language
+    - isAnswer: n
+      example: Extensible Application Markdown Language

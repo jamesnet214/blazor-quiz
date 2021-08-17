@@ -229,3 +229,11 @@ quiz:
       example: Xamarin
     - isAnswer: n
       example: UWP
+- question: 넷플릭스에서 4K와 HDR을 볼 수 있는 요금제는?
+  answers:
+    - isAnswer: y
+      example: 프리미엄
+    - isAnswer: n
+      example: 베이직
+    - isAnswer: n
+      example: 스탠다드

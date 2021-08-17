@@ -189,3 +189,23 @@ quiz:
       example: migration-update
     - isAnswer: n
       example: migration-run
+- question: Git에서 최신 코드를 업데이트 하는 방법은?
+  answers:
+    - isAnswer: y
+      example: git pull
+    - isAnswer: n
+      example: git new
+    - isAnswer: n
+      example: git update
+    - isAnswer: n
+      example: git push      
+- question: Git에서 새로운 원격 저장소를 가져오기 위한 방법은?
+  answers:
+    - isAnswer: y
+      example: git clone https://github.com/devncore/blazor-quiz
+    - isAnswer: n
+      example: git copy https://github.com/devncore/blazor-quiz
+    - isAnswer: n
+      example: git update https://github.com/devncore/blazor-quiz
+    - isAnswer: n
+      example: git local https://github.com/devncore/blazor-quiz

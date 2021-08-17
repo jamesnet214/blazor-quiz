@@ -179,3 +179,13 @@ quiz:
       example: 사자와 펭귄
     - isAnswer: n
       example: 호랑이와 돌고래
+- question: EntityFramework 데이터베이스 마이그레이션 명령어는?
+  answers:
+    - isAnswer: y
+      example: update-database
+    - isAnswer: n
+      example: migration-database
+    - isAnswer: n
+      example: migration-update
+    - isAnswer: n
+      example: migration-run

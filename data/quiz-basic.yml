@@ -219,7 +219,7 @@ quiz:
       example: Experience Advance Markup Language
     - isAnswer: n
       example: Extensible Application Markdown Language
-- question: XAML과 관련없는 것은?
+- question: XAML과 가장 관련없는 것은?
   answers:
     - isAnswer: y
       example: Winforms

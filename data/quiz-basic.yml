@@ -253,3 +253,12 @@ quiz:
       example: 해당 부분 주석
     - isAnswer: n
       example: 선택 문자 제거하기
+- question: MVC 뜻으로 옳은 것은?
+  answers:
+    - isAnswer: y
+      example: Model View Controller
+    - isAnswer: n
+      example: Model View Context
+    - isAnswer: n
+      example: Model View Constructor
+

@@ -237,3 +237,11 @@ quiz:
       example: 베이직
     - isAnswer: n
       example: 스탠다드
+- question: EntityFrameworkCore의 기본 인스턴스 클래스는?
+  answers:
+    - isAnswer: y
+      example: DbContext
+    - isAnswer: n
+      example: EntityContext
+    - isAnswer: n
+      example: DatabaseContext

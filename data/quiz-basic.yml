@@ -248,8 +248,8 @@ quiz:
 - question: Visual Studio에서 Ctrl + x 기능으로 알맞은 것은?
   answers:
     - isAnswer: y
-      example: 해당 커서 라인 잘라내기
+      example: 해당 커서 한줄 잘라내기
     - isAnswer: n
-      example: 해당 커서 라인 제거
+      example: 해당 부분 주석
     - isAnswer: n
-      example: 복사하기
+      example: 선택 문자 제거하기

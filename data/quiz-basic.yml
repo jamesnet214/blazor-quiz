@@ -261,4 +261,13 @@ quiz:
       example: Model View Context
     - isAnswer: n
       example: Model View Constructor
-
+- question: 아마존 AWS에서 지원하지 않는 RDS 데이터베이스는?
+  answers:
+    - isAnswer: n
+      example: Oracle
+    - isAnswer: n
+      example: MySql
+    - isAnswer: n
+      example: Sql Server (MS-SQL)
+    - isAnswer: y
+      example: MongoDB

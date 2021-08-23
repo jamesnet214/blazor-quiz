@@ -271,3 +271,13 @@ quiz:
       example: Sql Server (MS-SQL)
     - isAnswer: y
       example: MongoDB
+- question: DML의 약자로 알맞은 것은?
+  answers:
+    - isAnswer: y
+      example: Data Manipulation Language
+    - isAnswer: n
+      example: Database Managed Language
+    - isAnswer: n
+      example: Data Modified Language
+    - isAnswer: n
+      example: Data Migration Language

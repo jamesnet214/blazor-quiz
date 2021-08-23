@@ -281,3 +281,13 @@ quiz:
       example: Data Modified Language
     - isAnswer: n
       example: Data Migration Language
+- question: 다음 중 Namespace가 다른 클래스는?
+  answers:
+    - isAnswer: y
+      example: ToggleButton
+    - isAnswer: n
+      example: ItemsPresenter
+    - isAnswer: n
+      example: Grid
+    - isAnswer: n
+      example: ViewBox

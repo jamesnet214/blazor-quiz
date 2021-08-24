@@ -301,3 +301,13 @@ quiz:
       example: GRANT
     - isAnswer: n
       example: COMMIT
+- question: 상속받은 클래스에서만 접근이 가능한 접근제어자는?
+  answers:
+    - isAnswer: y
+      example: protected
+    - isAnswer: n
+      example: private
+    - isAnswer: n
+      example: public
+    - isAnswer: n
+      example: internal

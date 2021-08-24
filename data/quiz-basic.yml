@@ -291,3 +291,13 @@ quiz:
       example: Grid
     - isAnswer: n
       example: ViewBox
+- question: DCL(Data Control Language) 명령어가 아닌 것은?
+  answers:
+    - isAnswer: y
+      example: SELECT
+    - isAnswer: n
+      example: ROLLBACK
+    - isAnswer: n
+      example: GRANT
+    - isAnswer: n
+      example: COMMIT

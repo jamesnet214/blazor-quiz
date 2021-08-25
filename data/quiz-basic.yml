@@ -311,3 +311,13 @@ quiz:
       example: public
     - isAnswer: n
       example: internal
+- question: C# 9.0에 새롭게 추가된 기능이 아닌 것은?
+  answers:
+    - isAnswer: y
+      example: 널 병합 할당자(Null Coalescing Assignment)
+    - isAnswer: n
+      example: 레코드(record) 타입
+    - isAnswer: n
+      example: 공변 리턴 타입(Covariant return type)
+    - isAnswer: n
+      example: init 접근자

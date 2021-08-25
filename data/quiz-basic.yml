@@ -271,7 +271,7 @@ quiz:
       example: Sql Server (MS-SQL)
     - isAnswer: y
       example: MongoDB
-- question: DML의 약자로 알맞은 것은?
+- question: DML은 무엇의 약자인가?
   answers:
     - isAnswer: y
       example: Data Manipulation Language

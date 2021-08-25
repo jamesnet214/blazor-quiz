@@ -333,3 +333,13 @@ quiz:
       example: git branch to devncore
     - isAnswer: n
       example: git change branch devncore
+- question: Microsoft MVP에 대한 설명으로 잘못된 것은?
+  answers:
+    - isAnswer: y
+      example: MVP가 되기 위해서는 후보 추천서와 자기소개 영상을 제출해야 한다.
+    - isAnswer: n
+      example: MVP가 되면 글로벌 MVP Summit 행사에 참여할 수 있다.
+    - isAnswer: n
+      example: MVP Award는 1년 동안 지속된다.
+    - isAnswer: n
+      example: Microsoft 직원은 MVP가 될 수 없다.

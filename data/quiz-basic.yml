@@ -244,6 +244,8 @@ quiz:
     - isAnswer: n
       example: EntityContext
     - isAnswer: n
+      example: EfContext
+    - isAnswer: n
       example: DatabaseContext
 - question: Visual Studio에서 Ctrl + x 기능으로 알맞은 것은?
   answers:
@@ -253,7 +255,7 @@ quiz:
       example: 해당 부분 주석
     - isAnswer: n
       example: 선택 문자 제거하기
-- question: MVC 뜻으로 옳은 것은?
+- question: MVC의 뜻으로 옳은 것은?
   answers:
     - isAnswer: y
       example: Model View Controller
@@ -321,3 +323,13 @@ quiz:
       example: 공변 리턴 타입(Covariant return type)
     - isAnswer: n
       example: init 접근자
+- question: 현재 git branch는 main이다. devncore라는 브랜치로 변경하고자 할 때 알맞은 터미널 명령어는?
+  answers:
+    - isAnswer: y
+      example: git branch devncore
+    - isAnswer: n
+      example: git move branch devncore
+    - isAnswer: n
+      example: git branch to devncore
+    - isAnswer: n
+      example: git change branch devncore

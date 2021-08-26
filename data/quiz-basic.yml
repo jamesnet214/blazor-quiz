@@ -293,16 +293,16 @@ quiz:
       example: Grid
     - isAnswer: n
       example: ViewBox
-- question: DCL(Data Control Language) 명령어가 아닌 것은?
+- question: DML(Data Manipulation Language) 명령어가 아닌 것은?
   answers:
     - isAnswer: y
-      example: SELECT
-    - isAnswer: n
-      example: ROLLBACK
-    - isAnswer: n
       example: GRANT
     - isAnswer: n
-      example: COMMIT
+      example: UPDATE
+    - isAnswer: n
+      example: SELECT
+    - isAnswer: n
+      example: DELETE
 - question: 상속받은 클래스에서만 접근이 가능한 접근제어자는?
   answers:
     - isAnswer: y

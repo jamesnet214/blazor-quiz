@@ -343,7 +343,7 @@ quiz:
       example: MVP Award는 1년 동안 지속된다.
     - isAnswer: n
       example: Microsoft 직원은 MVP가 될 수 없다.
-- question: (다음 중에서 성격이 다른 하나는 무엇인가?
+- question: 다음 중에서 성격이 다른 하나는 무엇인가?
   answers:
     - isAnswer: y
       example: Border

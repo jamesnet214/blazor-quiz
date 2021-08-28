@@ -363,7 +363,7 @@ quiz:
       example: Control
     - isAnswer: n
       example: Output
-- question: 입·출력 제어장치의 종류가 아닌 것은?
+- question: 입·출력 제어장치의 종류가 아닌 것은? 
   answers:
     - isAnswer: n
       example: DMA

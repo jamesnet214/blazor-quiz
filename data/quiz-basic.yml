@@ -353,3 +353,23 @@ quiz:
       example: CheckBox
     - isAnswer: n
       example: UserControl
+- question: 시스템의 구성 요소 중 출력된 결과가 예정된 목표를 만족시키지 못할 경우 목표 달성을 위해 반복 처리하는 것을 의미하는 것은?
+  answers:
+    - isAnswer: n
+      example: Process
+    - isAnswer: y
+      example: Feedback
+    - isAnswer: n
+      example: Control
+    - isAnswer: n
+      example: Output
+- question: 입·출력 제어장치의 종류가 아닌 것은?
+  answers:
+    - isAnswer: n
+      example: DMA
+    - isAnswer: n
+      example: 채널
+    - isAnswer: y
+      example: 데이터 버스
+    - isAnswer: n
+      example: 입출력 프로세서

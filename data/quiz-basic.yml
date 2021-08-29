@@ -159,16 +159,14 @@ quiz:
       example: Hiphop Text Markup Language
 - question: 미드 빅뱅이론에 출연하지 않은 사람은?
   answers:
-    - isAnswer: n
-      example: 일론머스크
+    - isAnswer: y
+      example: 스티브잡스
     - isAnswer: n
       example: 스티븐 호킹 박사
     - isAnswer: n
       example: 빌 게이츠
     - isAnswer: n
       example: 킵 손 박사
-    - isAnswer: y
-      example: 팀 쿡
 - question: GitHub의 마스코트는 어떤 개체가 합성된 모습인가?
   answers:
     - isAnswer: y

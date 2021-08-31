@@ -371,13 +371,3 @@ quiz:
       example: 데이터 버스
     - isAnswer: n
       example: 입출력 프로세서
-- question: 
-  answers: C# 2.0에서부터 () 클래스라는 개념이 도입되었는데 하나의 클래스를 2개 이상의 파일에 나누어 정의할 수 있는 기능을 이야기 한다. ()안에 들어갈 단어는?
-    - isAnswer: y
-      example: partial
-    - isAnswer: n
-      example: protected
-    - isAnswer: n
-      example: interface
-    - isAnswer: n
-      example: async

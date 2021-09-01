@@ -77,6 +77,3 @@ public class QuizDataController : ControllerBase
     }
 }
 ```
-
-
-

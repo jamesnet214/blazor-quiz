@@ -371,3 +371,12 @@ quiz:
       example: 데이터 버스
     - isAnswer: n
       example: 입출력 프로세서
+- question: React에서 state에 대해서 잘못된 것은?
+  answers:
+    - isAnswer: y
+      example: state는 읽기 전용이다.
+    - isAnswer: n
+      example: 생성자에서 반드시 초기화해야 한다.
+    - isAnswer: n
+      example: setState()를 반드시 사용해야 한다.
+    - isAnswer: setState() 비동기 방식이다.

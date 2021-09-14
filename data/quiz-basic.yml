@@ -379,4 +379,5 @@ quiz:
       example: 생성자에서 반드시 초기화해야 한다.
     - isAnswer: n
       example: setState()를 반드시 사용해야 한다.
-    - isAnswer: setState() 비동기 방식이다.
+    - isAnswer: n
+      example: setState()를 반드시 사용해야 한다.

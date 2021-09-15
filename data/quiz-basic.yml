@@ -381,3 +381,13 @@ quiz:
       example: setState()를 반드시 사용해야 한다.
     - isAnswer: n
       example: setState()는 비동기 방식이다.
+- question: 반복문을 종료시키는 키워드는?
+  answers:
+    - isAnswer: y
+      example: break
+    - isAnswer: n
+      example: return
+    - isAnswer: n
+      example: new
+    - isAnswer: n
+      example: switch

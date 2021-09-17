@@ -2,9 +2,18 @@
 
 #### 👉 [웹사이트 방문](https://blazor-quiz.azurewebsites.net/Quiz)
 
+<br>
+
+## 만든이 소개
+[DevNcore 오픈소스 팀](https://github.com/devncore/devncore)이 리드하고 있습니다.
+
+<br>
+
 ## Overview
 
 > 간단한 퀴즈를 풀 수 있는 **Blazor-WebAssembly** 기반의 웹앱입니다.
+
+<br/>
 
 <img src="https://user-images.githubusercontent.com/74305823/129328930-6ca3e1e5-83f6-429a-af6a-63d81bd28624.png" width="400"/>
 

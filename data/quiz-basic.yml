@@ -391,3 +391,14 @@ quiz:
       example: new
     - isAnswer: n
       example: switch
+- question: 하나의 트랜잭션에서 데이터를 액세스 하는 동안 다른 트랜잭션이 그 데이터 항목을 액세스 할 수 없도록 제어하는 기법은?
+  answers:
+    - isAnswer: n
+      example: 병행제어
+    - isAnswer: y
+      example: 로킹기법
+    - isAnswer: n
+      example: 롤백
+    - isAnswer: n
+      example: 데이터마이닝
+      

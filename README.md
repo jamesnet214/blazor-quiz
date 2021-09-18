@@ -8,7 +8,6 @@
   <a href="https://github.com/devncore/devncore"><strong>👉 퀴즈 풀러가기</strong></a>
  
   <br/>
-  <br/>
  
   이 레포지토리는 DevNcore팀이 관리하고 있습니다.
   <br />

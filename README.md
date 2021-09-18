@@ -1,24 +1,18 @@
 <div align=center>
   <h2>Blazor Quiz</h2>
-  <sub>간단한 퀴즈를 풀 수 있는 <b><code>Blazor-WebAssembly</code></b> 기반 웹앱입니다.</sub> 
+  간단한 퀴즈를 풀 수 있는 <b><code>Blazor-WebAssembly</code></b> 기반 웹앱입니다.
 	
   <br/>
   <br/>
-  <img src="https://user-images.githubusercontent.com/74305823/129328930-6ca3e1e5-83f6-429a-af6a-63d81bd28624.png" width="280" align="center"/>
-  <img src="https://user-images.githubusercontent.com/74305823/129329047-0e6dd8ae-f0a4-4536-a18e-ccedf3f8033a.png" width="300" align="center"/>
-	
-  <br/>
-  <sub align="center">
+  
   <a href="https://github.com/devncore/devncore"><strong>👉 퀴즈 풀러가기</strong></a>
-  </sub>
+ 
   <br/>
   <br/>
  
-  <sub align="center">
-    이 레포지토리는 DevNcore팀이 관리하고 있습니다.
+  이 레포지토리는 DevNcore팀이 관리하고 있습니다.
   <br />
   <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
-  </sub>
  
   <br />
   <br />
@@ -98,3 +92,11 @@ public class QuizDataController : ControllerBase
     }
 }
 ```
+
+## 스크린샷
+
+<img src="https://user-images.githubusercontent.com/74305823/129328930-6ca3e1e5-83f6-429a-af6a-63d81bd28624.png" width="300" align="center"/>
+
+<img src="https://user-images.githubusercontent.com/74305823/129329047-0e6dd8ae-f0a4-4536-a18e-ccedf3f8033a.png" width="300" align="center"/>
+	
+  <br/>

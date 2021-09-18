@@ -401,4 +401,13 @@ quiz:
       example: 롤백
     - isAnswer: n
       example: 데이터마이닝
-      
+- question: Databse View의 목적은?
+  answers:
+    - isAnswer: n
+      example: 조인을 하기위해
+    - isAnswer: n
+      example: 뷰를 생성하기위해
+    - isAnswer: y
+      example: 원하는 데이터를 가상 테이블에 표현
+    - isAnswer: n
+      example: 뷰를 꾸미기 위해

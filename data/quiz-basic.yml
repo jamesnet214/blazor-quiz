@@ -401,13 +401,13 @@ quiz:
       example: 롤백
     - isAnswer: n
       example: 데이터마이닝
-- question: Databse View의 목적은?
+- question: 데이터베이스에서 View의 특징이 아닌 것은?
   answers:
     - isAnswer: n
-      example: 조인을 하기위해
+      example: 하나 이상의 기본 테이블로부터 유도된 가상 테이블이다.
     - isAnswer: n
-      example: 뷰를 생성하기위해
+      example: 데이터의 논리적 독립성을 제공할 수 있다.
     - isAnswer: y
-      example: 원하는 데이터를 가상 테이블에 표현
+      example: 독립적인 인덱스를 가질 수 있다.
     - isAnswer: n
-      example: 뷰를 꾸미기 위해
+      example: 먼저 정의된 뷰는 다른 뷰를 정의할 때 기초가 될 수 있다.

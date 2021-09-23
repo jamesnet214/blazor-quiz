@@ -25,15 +25,21 @@
   <br />
 
 ## 개발 환경
-- Blazor-WebAssembly
+> Blazor-WebAssembly
 
+<br />
+  
 ## 웹서버 호스팅
-- MS Azure WebApp 배포 (무료 F1)
+> MS Azure WebApp 배포 (무료 F1)
+
+<br />
 
 ## 데이터
-- 별도의 데이터베이스 없이 GitHub 레포지터리에서 [`.yaml` 파일](https://github.com/devncore/blazor-quiz/blob/master/data/quiz-basic.yml) 로드  
-  
-## Yaml Parsing
+> 별도 데이터베이스 없이 GitHub 레포지터리에서 [`.yaml` 파일](https://github.com/devncore/blazor-quiz/blob/master/data/quiz-basic.yml) 로드  
+
+<br>
+
+### Yaml Parsing
 
 ```csharp
 [ApiController]
@@ -92,10 +98,12 @@ public class QuizDataController : ControllerBase
 }
 ```
 
+<br>
+  
 ## 스크린샷
 
-<img src="https://user-images.githubusercontent.com/74305823/129328930-6ca3e1e5-83f6-429a-af6a-63d81bd28624.png" width="300" align="center"/>
+<img src="https://user-images.githubusercontent.com/74305823/129328930-6ca3e1e5-83f6-429a-af6a-63d81bd28624.png" width="450"/>
 
-<img src="https://user-images.githubusercontent.com/74305823/129329047-0e6dd8ae-f0a4-4536-a18e-ccedf3f8033a.png" width="300" align="center"/>
+<img src="https://user-images.githubusercontent.com/74305823/129329047-0e6dd8ae-f0a4-4536-a18e-ccedf3f8033a.png" width="450"/>
 	
   <br/>

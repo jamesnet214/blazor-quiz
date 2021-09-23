@@ -5,7 +5,7 @@
   <br/>
   <br/>
   
-  <a href="https://blazor-quiz.azurewebsites.net/Quiz"><strong>👉 퀴즈 풀러가기</strong></a>
+  👉 <a href="https://blazor-quiz.azurewebsites.net/Quiz"><strong>퀴즈 풀러가기</strong></a>
  
   <br/>
  

@@ -77,7 +77,7 @@ quiz:
       example: 솔라시티
     - isAnswer: y
       example: 스페이스오딧세이
-- question: 닷넷데브 커뮤니티에서 열성가 뱃지는 몇일 연속으로 방문해야 얻을 수 있는가?
+- question: 닷넷데브 커뮤니티에서 열성가 뱃지는 며칠 연속으로 방문해야 얻을 수 있는가?
   answers:
     - isAnswer: n
       example: 연속 5일 방문
@@ -177,7 +177,7 @@ quiz:
       example: 사자와 펭귄
     - isAnswer: n
       example: 호랑이와 돌고래
-- question: EntityFramework 데이터베이스 마이그레이션 명령어는?
+- question: EntityFramework에서 데이터베이스 마이그레이션 명령어는?
   answers:
     - isAnswer: y
       example: update-database
@@ -341,7 +341,7 @@ quiz:
       example: MVP Award는 1년 동안 지속된다.
     - isAnswer: n
       example: Microsoft 직원은 MVP가 될 수 없다.
-- question: 다음 중에서 성격이 다른 하나는 무엇인가?
+- question: 다음 중 성격이 다른 하나는 무엇인가?
   answers:
     - isAnswer: y
       example: Border
@@ -394,13 +394,13 @@ quiz:
 - question: 하나의 트랜잭션에서 데이터를 액세스 하는 동안 다른 트랜잭션이 그 데이터 항목을 액세스 할 수 없도록 제어하는 기법은?
   answers:
     - isAnswer: n
-      example: 병행제어
+      example: 타임스탬프(Time Stamp)
     - isAnswer: y
-      example: 로킹기법
+      example: 로킹(Locking)
     - isAnswer: n
-      example: 롤백
+      example: 롤백(Rollback)
     - isAnswer: n
-      example: 데이터마이닝
+      example: 데이터마이닝(Data Mining)
 - question: 데이터베이스에서 View의 특징이 아닌 것은?
   answers:
     - isAnswer: n

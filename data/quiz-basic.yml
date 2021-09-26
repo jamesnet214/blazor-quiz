@@ -421,3 +421,14 @@ quiz:
       example: 변수는 타입과 이름과 값으로 이루어져있다.
     - isAnswer: y
       example: int 타입의 변수는 값을 참조해서 연산이 빠르다.
+- question: 다음 중 OnMouseDown 메서드는 어느 클래스에 구현되어있는가?
+  answers:
+    - isAnswer: y
+      example: UIElement
+    - isAaswer: n
+      example: Visual
+    - isAnswer: n
+      example: Control
+    - isAnswer: n
+      example: DependencyObject
+    

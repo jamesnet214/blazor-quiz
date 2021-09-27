@@ -425,7 +425,7 @@ quiz:
   answers:
     - isAnswer: y
       example: UIElement
-    - isAaswer: n
+    - isAnswer: n
       example: Visual
     - isAnswer: n
       example: Control

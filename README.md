@@ -2,12 +2,12 @@
   <h2>Blazor Quiz</h2>
   간단한 퀴즈를 풀 수 있는 <b><code>Blazor-WebAssembly</code></b> 기반 웹앱입니다.
 	
-  <br/>
-  <br/>
+  <br />
+  <br />
   
   👉 <a href="https://blazor-quiz.azurewebsites.net/Quiz"><strong>퀴즈 풀러가기</strong></a>
  
-  <br/>
+  <br />
  
   이 레포지토리는 DevNcore팀이 관리하고 있습니다.
   <br />
@@ -37,7 +37,7 @@
 ## 데이터
 > 별도 데이터베이스 없이 GitHub 레포지터리에서 [`.yaml` 파일](https://github.com/devncore/blazor-quiz/blob/master/data/quiz-basic.yml) 로드  
 
-<br>
+<br />
 
 ### Yaml Parsing
 
@@ -98,7 +98,7 @@ public class QuizDataController : ControllerBase
 }
 ```
 
-<br>
+<br />
   
 ## 스크린샷
 
@@ -106,4 +106,4 @@ public class QuizDataController : ControllerBase
 
 <img src="https://user-images.githubusercontent.com/74305823/129329047-0e6dd8ae-f0a4-4536-a18e-ccedf3f8033a.png" width="450"/>
 	
-  <br/>
+<br />

@@ -431,3 +431,13 @@ quiz:
       example: Control
     - isAnswer: n
       example: DependencyObject
+- question: json 파일을 저장할 때 사용되는 인코딩 방식은?
+  answers:
+    - isAnswer: y
+      example: UTF8
+    - isAnswer: n
+      example: ASCII
+    - isAnswer: n
+      example: Unicode
+    - isAnswer: n
+      example: UTF32

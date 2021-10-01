@@ -441,3 +441,14 @@ quiz:
       example: Unicode
     - isAnswer: n
       example: UTF32
+      
+- question: 오버로딩(Overloading)과 오버라이딩(Overridding)의대한 설명이 아닌것은?
+  answers:
+    - isAnswer: y
+      example: 오버라이딩은 static한정자 와 override 키워드를 사용하여 오버라이딩을 구현하게 된다.
+    - isAnswer: n
+      example: 오버로딩 기법을 이용하면 하나의 클래스에 같은 이름을 가진 메서드를 여러개 정의할수있다.
+    - isAnswer: n
+      example: 오버라이딩 기법은 클래스간 상속관계에서 메서드를 재정의하는 기법이다.
+    - isAnswer: n
+      example: 오버라이딩 할때 부모클래스에서는 virtual키워드로 자식 클래스에서는 override키워드로 메서드를 정의해야한다.

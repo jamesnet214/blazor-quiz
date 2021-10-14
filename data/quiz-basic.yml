@@ -431,7 +431,7 @@ quiz:
       example: Control
     - isAnswer: n
       example: DependencyObject
-- question: json 파일을 저장할 때 사용되는 인코딩 방식은?
+- question: JSON 파일을 저장할 때 사용되는 인코딩 방식은?
   answers:
     - isAnswer: y
       example: UTF8
@@ -440,15 +440,14 @@ quiz:
     - isAnswer: n
       example: Unicode
     - isAnswer: n
-      example: UTF32
-      
-- question: 오버로딩(Overloading)과 오버라이딩(Overridding)의대한 설명이 아닌것은?
+      example: UTF32     
+- question: 오버로딩(Overloading)과 오버라이딩(Overridding)의 대한 설명이 아닌 것은?
   answers:
     - isAnswer: y
-      example: 오버라이딩은 static한정자 와 override 키워드를 사용하여 오버라이딩을 구현하게 된다.
+      example: 오버라이딩은 static한정자와 override 키워드를 사용하여 구현한다.
     - isAnswer: n
-      example: 오버로딩 기법을 이용하면 하나의 클래스에 같은 이름을 가진 메서드를 여러개 정의할수있다.
+      example: 오버로딩 기법을 이용하면 하나의 클래스에 같은 이름을 가진 메서드를 여러 개 정의할 수 있다.
     - isAnswer: n
       example: 오버라이딩 기법은 클래스간 상속관계에서 메서드를 재정의하는 기법이다.
     - isAnswer: n
-      example: 오버라이딩 할때 부모클래스에서는 virtual키워드로 자식 클래스에서는 override키워드로 메서드를 정의해야한다.
+      example: 오버라이딩할 때 부모클래스에서는 virtual 키워드로, 자식 클래스에서는 override 키워드로 메서드를 정의해야 한다.

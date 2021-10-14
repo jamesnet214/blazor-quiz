@@ -444,13 +444,13 @@ quiz:
 - question: 오버로딩(Overloading)과 오버라이딩(Overridding)의 대한 설명이 아닌 것은?
   answers:
     - isAnswer: y
-      example: 오버라이딩은 static한정자와 override 키워드를 사용하여 구현한다.
+      example: 오버라이딩은 static 한정자와 override 키워드를 사용하여 구현한다.
     - isAnswer: n
       example: 오버로딩 기법을 이용하면 하나의 클래스에 같은 이름을 가진 메서드를 여러 개 정의할 수 있다.
     - isAnswer: n
       example: 오버라이딩 기법은 클래스간 상속관계에서 메서드를 재정의하는 기법이다.
     - isAnswer: n
-      example: 오버라이딩할 때 부모클래스에서는 virtual 키워드로, 자식 클래스에서는 override 키워드로 메서드를 정의해야 한다.
+      example: 오버라이딩 할 때 부모클래스에서는 virtual 키워드로, 자식 클래스에서는 override 키워드로 메서드를 정의해야 한다.
 - question: 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어 CSS는 무엇의 약자인가?
   answers:
     - isAnswer: y

@@ -461,3 +461,13 @@ quiz:
       example: Creating Style Sheets
     - isAnswer: n
       example: Collection Style Sheets    
+- question: Yaml 의 뜻으로 맞는 것은?
+  answers:
+    - isAnswer: n
+      example: 들여쓰기는 무조건 4칸만 지원이 가능하다.
+    - isAnswer: n
+      example: Key 와 Value 사이에는 빈칸이 필요없다.
+    - isAnswer: n
+      example: YAML은 마크업 언어이다.
+    - isAnswer: y
+      example: Yaml Ain't Markup Language

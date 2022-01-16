@@ -1,8 +1,7 @@
 ## Blazor Quiz
 
-이 리포지토리는 간단한 퀴즈를 풀 수 있는 <b><code>Blazor-WebAssembly</code></b> 기반 웹앱 리포지토리입니다. <br />  <br />
-  👉 <a href="https://blazor-quiz.azurewebsites.net/Quiz"><strong>퀴즈 풀러가기</strong></a>
-<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+Blazor Quiz는 간단한 퀴즈를 풀 수 있는 <b><code>Blazor-WebAssembly</code></b> 기반 웹앱입니다. 
+👉 <a href="https://blazor-quiz.azurewebsites.net/Quiz"><strong>퀴즈 풀러가기</strong></a>
 
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
  

@@ -90,7 +90,5 @@ public class QuizDataController : ControllerBase
 ## 스크린샷
 
 <img src="https://user-images.githubusercontent.com/74305823/129328930-6ca3e1e5-83f6-429a-af6a-63d81bd28624.png" width="450"/>
-
 <img src="https://user-images.githubusercontent.com/74305823/129329047-0e6dd8ae-f0a4-4536-a18e-ccedf3f8033a.png" width="450"/>
 	
-<br />

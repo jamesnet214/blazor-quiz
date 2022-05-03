@@ -22,7 +22,7 @@ Blazor Quiz는 간단한 퀴즈를 풀 수 있는 <b><code>Blazor-WebAssembly</c
 <br />
 
 ## 데이터
-> 별도 데이터베이스 없이 GitHub 레포지터리에서 [`.yaml` 파일](https://github.com/devncore/blazor-quiz/blob/master/data/quiz-basic.yml) 로드  
+> 별도 데이터베이스 없이 GitHub 레포지터리에서 [**YAML 파일**](https://github.com/devncore/blazor-quiz/blob/master/data/quiz-basic.yml) 로드  
 
 <br />
 
